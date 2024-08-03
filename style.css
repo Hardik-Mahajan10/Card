@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  line-height: 1.3;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f1f7bc;
+}
+.card {
+  background: linear-gradient(
+    to bottom,
+    #dda8b6 0%,
+    #dda8b6 35%,
+    #f6f2f2 35%,
+    #f6f2f2 100%
+  );
+  height: 500px;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  position: relative;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.photo {
+  position: absolute;
+  top: 0;
+  width: 298px;
+  height: 192px;
+}
+img {
+  border: 0.5px black;
+  border-radius: 50%;
+  position: absolute;
+  top: 36px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.heading-content {
+  display: inline;
+  text-align: center;
+  position: absolute;
+  top: 206px;
+}
+p {
+  font-weight: 100px;
+  text-align: center;
+}
+.social {
+  position: absolute;
+  top: 266px;
+  display: inline-block;
+}
+i {
+  margin: 0 10px;
+}
+.main-content {
+  position: absolute;
+  top: 296px;
+}
+.btn {
+  position: absolute;
+  top: 433px;
+}
+button {
+  margin: 0 10px;
+  border: 0.5px solid;
+  border-radius: 20px;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+}
+.btn1 {
+  background-color: #dda8b6;
+}
+.btn2 {
+  background-color: #f6f2f2;
+}
